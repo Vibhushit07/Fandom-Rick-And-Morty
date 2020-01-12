@@ -60,7 +60,7 @@ class EpisodeDetail extends Component{
                         }
                     </ol>
                 </div> :
-                <div> Here </div>
+                <div> Loading </div>
             }
             </div>
         );

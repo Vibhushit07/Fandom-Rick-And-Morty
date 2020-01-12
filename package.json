@@ -14,14 +14,11 @@
     "react-search-box": "^2.0.2",
     "react-search-field": "^1.0.0"
   },
-  "homepage": "https://vibhushit07.github.io/Fandom/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
