@@ -26,8 +26,6 @@ class EpisodeDetail extends Component{
             console.log(this.state.character);
             console.log("length " + this.state.character.length);   
         }
-        console.log("Again: " + this.state.character);
-        console.log("length 1 " + this.state.character.length);
     }
 
     async fetchCharacter(url){

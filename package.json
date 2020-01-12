@@ -15,7 +15,6 @@
     "react-search-field": "^1.0.0"
   },
   "homepage": "https://vibhushit07.github.io/Fandom/",
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
