@@ -1,0 +1,70 @@
+.navbar{
+	overflow: hidden;
+	background-color: lightgrey;
+	border-bottom: 2px solid lightblue;
+}
+
+.image{
+	padding: 10px;
+	height: 55px;
+	width: 100px;
+}
+
+.navbar .search{
+	float: right;
+	margin: 20px;
+}
+
+.navbar .text{
+	background-color: silver;
+	padding: 3px 6px 8px 6px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.input{
+	padding: 8px;
+	width: 200px;
+	border-style: none;
+}
+
+.navbar .button{
+	padding: 8px;
+	background-color: silver;
+	border-style: none;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	cursor: pointer;
+}
+
+.body{
+	display: flex;
+}
+
+.List{
+	border-right: 2px solid lightblue;
+	width: 250px;
+	height: 1110px;
+	background-color: lightgrey;
+}
+
+.List ul{
+	list-style-type: none;
+	margin-left: 15%;
+	margin-top: 25px; 
+	color: purple;
+}
+
+.List li{
+	padding-bottom: 10px;
+}
+
+.about	{
+	position: absolute;
+	top: 70px;
+	left: 280px;
+}
+
+.about hr{
+	width: 75em;
+}

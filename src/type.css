@@ -1,0 +1,23 @@
+.rows{
+    display: flex;
+    margin: 25px 0 0 75px;
+}
+
+.column{
+    box-shadow: 0 0 3px gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.head{
+    text-align: center;
+    padding: 5px; 
+}
+
+.name{
+    padding-top: 50px;
+    text-align: center;
+    background-color: lightgray; 
+    height: 80px;
+}
