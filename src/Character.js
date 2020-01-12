@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.jpg';
 import './App.css';
 import './type.css';
 
@@ -32,7 +31,7 @@ class Character extends Component{
                             <h1>Characters</h1>
                             <hr />
                             <div className="rows">
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[0].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[0].species}</span>
                                     </div>
@@ -44,7 +43,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[1].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[1].species}</span>
                                     </div>
@@ -56,7 +55,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[2].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[2].species}</span>
                                     </div>
@@ -68,7 +67,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[3].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[3].species}</span>
                                     </div>
@@ -80,7 +79,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[4].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[4].species}</span>
                                     </div>
@@ -94,7 +93,7 @@ class Character extends Component{
                             </div>
 
                             <div className="rows">
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[5].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[5].species}</span>
                                     </div>
@@ -106,8 +105,8 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
-                                    <div className="head">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[6].name)}>
+                                    <div className="head" >
                                         <span>{this.state.characters.results[6].species}</span>
                                     </div>
                                     <div className="name">
@@ -118,7 +117,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[7].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[7].species}</span>
                                     </div>
@@ -130,7 +129,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[8].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[8].species}</span>
                                     </div>
@@ -142,7 +141,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[9].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[9].species}</span>
                                     </div>
@@ -156,7 +155,7 @@ class Character extends Component{
                             </div>
 
                             <div className="rows">
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[10].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[10].species}</span>
                                     </div>
@@ -168,7 +167,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column"  onClick={()=>this.props.fun(this.state.characters.results[11].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[11].species}</span>
                                     </div>
@@ -180,8 +179,8 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
-                                    <div className="head">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[12].name)}>
+                                    <div className="head" >
                                         <span>{this.state.characters.results[12].species}</span>
                                     </div>
                                     <div className="name">
@@ -192,7 +191,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[13].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[13].species}</span>
                                     </div>
@@ -204,7 +203,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[14].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[14].species}</span>
                                     </div>
@@ -218,7 +217,7 @@ class Character extends Component{
                             </div>
 
                             <div className="rows">
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[15].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[15].species}</span>
                                     </div>
@@ -230,7 +229,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[16].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[16].species}</span>
                                     </div>
@@ -242,7 +241,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[17].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[17].species}</span>
                                     </div>
@@ -254,7 +253,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[18].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[18].species}</span>
                                     </div>
@@ -266,7 +265,7 @@ class Character extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column">
+                                <div className="column" onClick={()=>this.props.fun(this.state.characters.results[19].name)}>
                                     <div className="head">
                                         <span>{this.state.characters.results[19].species}</span>
                                     </div>

@@ -10,8 +10,6 @@ class Episode extends Component{
             episodes: [],
             received: false,
         };
-        
-        // this.props = this.props.bind(this);
     }
 
     async fetchFirst(){
@@ -36,7 +34,7 @@ class Episode extends Component{
                             <h1>Episodes</h1>
                             <hr />
                             <div className="rows">
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[0].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[0].episode}</span>
                                     </div>
@@ -48,7 +46,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[1].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[1].episode}</span>
                                     </div>
@@ -60,7 +58,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[2].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[2].episode}</span>
                                     </div>
@@ -72,7 +70,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[3].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[3].episode}</span>
                                     </div>
@@ -84,7 +82,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[4].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[4].episode}</span>
                                     </div>
@@ -98,7 +96,7 @@ class Episode extends Component{
                             </div>
 
                             <div className="rows">
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[5].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[5].episode}</span>
                                     </div>
@@ -110,7 +108,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[6].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[6].episode}</span>
                                     </div>
@@ -122,7 +120,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[7].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[7].episode}</span>
                                     </div>
@@ -134,7 +132,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[8].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[8].episode}</span>
                                     </div>
@@ -146,7 +144,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[9].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[9].episode}</span>
                                     </div>
@@ -160,7 +158,7 @@ class Episode extends Component{
                             </div>
 
                             <div className="rows">
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[10].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[10].episode}</span>
                                     </div>
@@ -172,7 +170,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[11].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[11].episode}</span>
                                     </div>
@@ -184,7 +182,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[12].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[12].episode}</span>
                                     </div>
@@ -196,7 +194,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[13].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[13].episode}</span>
                                     </div>
@@ -208,7 +206,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[14].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[14].episode}</span>
                                     </div>
@@ -222,7 +220,7 @@ class Episode extends Component{
                             </div>
 
                             <div className="rows">
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[15].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[15].episode}</span>
                                     </div>
@@ -234,7 +232,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[16].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[16].episode}</span>
                                     </div>
@@ -246,7 +244,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[17].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[17].episode}</span>
                                     </div>
@@ -258,7 +256,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[18].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[18].episode}</span>
                                     </div>
@@ -270,7 +268,7 @@ class Episode extends Component{
                                     </div>
                                 </div>
 
-                                <div className="column" onClick={()=>this.props.fun(this.state.episodes.results[19].episode)}>
+                                <div className="column">
                                     <div className="head">
                                         <span>{this.state.episodes.results[19].episode}</span>
                                     </div>

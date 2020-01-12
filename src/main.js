@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Character from './Character';
+import CharacterPlain from './CharacterPlain';
 import Location from './Location';
 import HomePage from './HomePage';
 import Common from './common';
 import {Route, Switch} from 'react-router-dom';
-import EpisodePlain from './EpisodePlain';
+import Episode from './Episode';
 
 class Main extends Component{
    
@@ -13,9 +13,9 @@ class Main extends Component{
         <div>
             <Switch>
                 <Route exact path='/' render={()=>(<div> <Common/> <HomePage/> </div>)} />    
-                <Route exact path='/character' render={()=>( <div> <Common /> <Character/> </div>)} />
+                <Route exact path='/character' render={()=>( <div> <Common /> <CharacterPlain /> </div>)} />
                 <Route exact path='/location' render={()=>(<div> <Common /> <Location/> </div> )} />
-                <Route exact path='/episode' render={()=>( <div> <Common /> <EpisodePlain /> </div> )} />
+                <Route exact path='/episode' render={()=>( <div> <Common /> <Episode /> </div> )} />
             </Switch>
         </div>
         );

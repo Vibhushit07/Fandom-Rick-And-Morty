@@ -68,3 +68,7 @@
 .about hr{
 	width: 75em;
 }
+
+.character-detail{
+	display: flex;
+}

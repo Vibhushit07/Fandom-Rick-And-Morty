@@ -69,4 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 This is a Fandom project given by Upgrad.
-Episode part is working properly.
+Characters part is working properly.
